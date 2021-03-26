@@ -9,8 +9,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  0.536 s
-[INFO] Finished at: 2021-03-25T20:55:01-05:00
+[INFO] Total time:  0.506 s
+[INFO] Finished at: 2021-03-25T23:03:54-05:00
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO] 
@@ -43,9 +43,9 @@
  T E S T S
 -------------------------------------------------------
 Running com.occ.service.impl.NameListReaderTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
 Running com.occ.service.impl.NameScoreCalculatorTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
 
 Results :
 
@@ -61,10 +61,10 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  21.920 s
-[INFO] Finished at: 2021-03-25T20:57:26-05:00
+[INFO] Total time:  21.802 s
+[INFO] Finished at: 2021-03-25T23:06:19-05:00
 [INFO] ------------------------------------------------------------------------
 total 1660
 -rw-r--r-- 1 user 197121 1468904 Mar 22 20:25 spring-core-5.3.5.jar
 -rw-r--r-- 1 user 197121  214788 Mar 22 20:39 commons-io-2.6.jar
--rw-r--r-- 1 user 197121   10543 Mar 25 20:57 namescorer-0.0.1-SNAPSHOT.jar
+-rw-r--r-- 1 user 197121   10445 Mar 25 23:06 namescorer-0.0.1-SNAPSHOT.jar
