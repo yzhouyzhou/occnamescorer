@@ -12,10 +12,10 @@ import java.net.URL;
  */
 public interface FactoryScorer {
 	/**
-	 * Open the specified source and calculate the totalScore 
-	 * @param p_src identifies the document source
+	 * Input file resource
+	 * @param p_listSource file resource
 	 * @return the total score
-	 * @throws IOException thrown if there is an I/O error related to reading p_src.
+	 * @throws IOException thrown if there is an I/O error loading data.
 	 */
 	
 	public int calculateListScore(URL p_listSource) throws IOException;

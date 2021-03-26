@@ -16,15 +16,13 @@ import com.occ.service.api.ListReader;
 /**
  *  @author Ying Zhou
  *  
- *  Simple list reader implementation that processes a given URL as a simple text file and
- *  returns a list of all non-empty trimmed lines of content.
- *  <p>
- *  Note that a local text file can be specified via the "file:" URL prefix  
+ *  Implementation from a given URL as a text file 
+ *  split delimiter is ","
  */
 public class NameListReader implements ListReader 
 {
-	public List<String> readList(URL p_src) throws IOException {		
-		String nameStr = IOUtils.toString(p_src, Charset.defaultCharset());
+	public List<String> readList(URL p_listSource) throws IOException {		
+		String nameStr = IOUtils.toString(p_listSource, Charset.defaultCharset());
         List<String> names = Arrays
         						.stream(nameStr.split(","))
         						.map(s -> s.substring(1, s.length()-1))        						

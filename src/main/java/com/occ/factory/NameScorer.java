@@ -12,13 +12,9 @@ import com.occ.service.api.ScoreCalculator;
 /**
  *  @author Ying Zhou
  *  
- * This class calculates a summarized score for all names in a list. It utilizes
- * multiple plug-in components to allow for customized input, sorting, and
- * processing.
+ * This class calculates a summarized score for all names in a list. 
  */
 public class NameScorer implements FactoryScorer{
-	// Use composition pattern to provide mutually pluggable implementations for
-	// reading and scoring.
 	private ListReader reader;
 	private ScoreCalculator scoreCalculator;
 

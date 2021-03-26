@@ -6,8 +6,9 @@ import com.occ.service.api.ScoreCalculator;
  * 
  * @author Ying Zhou
  *
- * Calculate a string score based on letter-only first name processing rules:
- * index multiplied by the sum of the name's letter's ordinal values ('A'=1,'B'=2, etc).
+ * Calculate a string score based on letter-only from A to Z
+ * 'A'=1,'B'=2, etc
+ * index multiplied by the sum of the name's letter.
  */
 public class NameScoreCalculator implements ScoreCalculator
 {
