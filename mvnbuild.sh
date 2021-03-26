@@ -2,7 +2,7 @@
 #Make a clean maven build and copy the jar file to proper place.
 #
 
-mvn clean | tee build.output.txt
-mvn install | tee build.output.txt 
+mvn clean
+mvn install
 cp -p target/*.jar jars
-ls -ltr jars | tee build.output.txt
+ls -ltr jars

@@ -1,4 +1,70 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.occ:namescorer >-------------------------
+[INFO] Building namescorer 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ namescorer ---
+[INFO] Deleting C:\source\namescorer\namescorer\target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.536 s
+[INFO] Finished at: 2021-03-25T20:55:01-05:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.occ:namescorer >-------------------------
+[INFO] Building namescorer 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ namescorer ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\source\namescorer\namescorer\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ namescorer ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to C:\source\namescorer\namescorer\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ namescorer ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\source\namescorer\namescorer\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ namescorer ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to C:\source\namescorer\namescorer\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ namescorer ---
+[INFO] Surefire report directory: C:\source\namescorer\namescorer\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.occ.service.impl.NameListReaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running com.occ.service.impl.NameScoreCalculatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ namescorer ---
+[INFO] Building jar: C:\source\namescorer\namescorer\target\namescorer-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ namescorer ---
+[INFO] Installing C:\source\namescorer\namescorer\target\namescorer-0.0.1-SNAPSHOT.jar to C:\Users\user\.m2\repository\com\occ\namescorer\0.0.1-SNAPSHOT\namescorer-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\source\namescorer\namescorer\pom.xml to C:\Users\user\.m2\repository\com\occ\namescorer\0.0.1-SNAPSHOT\namescorer-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.920 s
+[INFO] Finished at: 2021-03-25T20:57:26-05:00
+[INFO] ------------------------------------------------------------------------
 total 1660
 -rw-r--r-- 1 user 197121 1468904 Mar 22 20:25 spring-core-5.3.5.jar
 -rw-r--r-- 1 user 197121  214788 Mar 22 20:39 commons-io-2.6.jar
--rw-r--r-- 1 user 197121   10540 Mar 25 19:17 namescorer-0.0.1-SNAPSHOT.jar
+-rw-r--r-- 1 user 197121   10543 Mar 25 20:57 namescorer-0.0.1-SNAPSHOT.jar
