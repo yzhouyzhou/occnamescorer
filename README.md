@@ -1,7 +1,7 @@
 # occnamescorer
 
 ## Name Scorer Project Overview
-*   This project is to calculate the scores from the list of names. The input is a file with first names and the output is a total score calculated form the names. The project is a maven project created on eclipse. pom.xml contains all the configuration details, dependenses, and build goals. The application is able to run on both ecpipse and command line.
+*   This project is to calculate the scores from the list of names. The input is a file with first names and the output is a total score calculated form the names. The project is a maven project created on eclipse. pom.xml contains all the configuration details, dependenses, and build goals. The application is able to run on both eclipse and command line.
 
 *   Java 8+
 *   Maven 3.6.3
@@ -23,16 +23,17 @@ obtain a score of 40 x 4 = 160.
 *   Input a source file from command line;
 *   Sort them alphabetically
 *   Calculation algorithm: 
-        ***   score name 
-        ***   its position
-        ***   calculate total
+    *   score name 
+    *   its position
+    *   calculate total
 *   Output to display
+*   Exception error handling
 
 # Design Pattern and Interface
 *   Composite Pattern.
 *   Abstract Factory Pattern.
 *   Input file reading interface to leave the data resource open.
-*   Calculation interface to derive other future calculation strategy.
+*   Calculation interface to derive other future calculation strategies.
 
 # Testing
 *   unit test case
@@ -41,6 +42,13 @@ obtain a score of 40 x 4 = 160.
 # Utility
 *   log utility
 *   StopWatch wrapper to measure overall application performance
+
+
+# Future Development - Phase II
+*   There are a few limitations with current phase. For next phase, we can make improvements:
+    *   The scoring feature can be added as a web-app
+    *   Switching from first names only to both first and last names
+
 
 ## Output
 
@@ -64,7 +72,7 @@ obtain a score of 40 x 4 = 160.
 
 
 
-    *   6 unit test cases were created including 1 perftest. 
+    *   6 unit test cases were created including 1 performance test. 
 
         ![node-image4](images/node4.JPG)
 
@@ -79,7 +87,7 @@ obtain a score of 40 x 4 = 160.
 
     *   With a success build, you can using this command to run the application:
 
-        java -classpath ./jars/* com.occ.namescorer.App
+        java -classpath ./jars/* com.occ.namescorer.App names.txt
 
         ![node-image6](images/node6.JPG)
 

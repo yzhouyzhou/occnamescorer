@@ -3,7 +3,6 @@ package com.occ.namescorer;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
-import java.util.Scanner;
 
 import com.occ.factory.NameScorer;
 import com.occ.service.impl.NameListReader;
@@ -24,15 +23,15 @@ import com.occ.util.TimerWatchUtil;
  */
 public class App 
 {
-	public static void main(String[] args) {
-		LoggerUtil.log("Please enter the file name: ");
-		Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) {		
 		
-		TimerWatchUtil.startTimer();
-		LoggerUtil.log("TotalScore = " + new App().scoreNames(scanner.nextLine()));
-		TimerWatchUtil.timeTaken();
-		
-		scanner.close();
+		if (args.length != 1) {
+			LoggerUtil.log("Expected arg: <filename>");
+		} else {
+			TimerWatchUtil.startTimer();
+			LoggerUtil.log("TotalScore = " + new App().scoreNames(args[0]));
+			TimerWatchUtil.timeTaken();
+		}	
 	}
 	
 	public int scoreNames(String p_file)  {		
