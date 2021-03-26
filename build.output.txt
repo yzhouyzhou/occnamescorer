@@ -1,0 +1,4 @@
+total 1660
+-rw-r--r-- 1 user 197121 1468904 Mar 22 20:25 spring-core-5.3.5.jar
+-rw-r--r-- 1 user 197121  214788 Mar 22 20:39 commons-io-2.6.jar
+-rw-r--r-- 1 user 197121   10540 Mar 25 19:17 namescorer-0.0.1-SNAPSHOT.jar
